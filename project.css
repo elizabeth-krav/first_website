@@ -1,0 +1,123 @@
+body {
+	background-color: #f1efe8;
+	text-align: center;
+}
+
+
+header {
+	margin-top: 50px;
+}
+
+h1 {
+	font-family: "Brush Script MT";
+}
+
+
+header img {
+	border-radius: 50%; 
+	box-shadow: 5px 5px 5px #64412b;
+	float: right;
+	border-bottom: 1px solid #888;
+	margin-right: 50px;
+}
+
+hr {
+	border: none; 
+        width: 40%;
+        border-top: 5px dotted;
+        margin: 0 auto;
+}
+
+.first-line {
+        margin-top: 100px;
+    }
+
+.second-line {
+        margin-top: 80px;
+        margin-bottom: 80px;
+}
+
+.image-container img {
+	margin: 45px;
+	border-radius: 5%; 
+	box-shadow: 5px 5px 5px #64412b;
+}
+
+.portfolio {
+	margin: 45px;
+}
+
+.btn {
+	font-family: "Courier New";
+	margin-top: 45px;
+	background-color: #855E3F;
+	color: ghostwhite;
+	box-shadow: 5px 5px 5px #64412b;
+	width: 120px;
+	height: 60px;
+	border-radius: 10%;
+}
+
+#second {
+	margin: 0 auto;
+}
+
+#first {
+	margin-right: 280px;
+	margin-left: 200px;
+}
+
+#third {
+	margin-right: 200px;
+	margin-left: 280px;
+}
+
+#pieces {
+	width: 263.5px;
+	height: 516.5px;
+	border: 2px solid purple;
+
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#board {
+	width: 263.5px;
+	height: 516.5px;
+	border: 2px solid purple;
+
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#board img {
+	width: 85.6px;
+	height: 101.4px;
+	border: 0.5px solid lightgrey;
+}
+
+
+#pieces img {
+	width: 85.6px;
+	height: 101.4px;
+	border: 0.5px solid lightgrey;
+}
+
+.puzzle {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+ul {
+	text-align: left;
+	display: inline-block;
+	
+    	
+    }
+
+li {
+	margin: 10px 0;
+}
+
